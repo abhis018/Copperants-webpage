@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    text-align: center;
+    width: 72rem;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+.body-1{
+    background-color: #f36223;
+    width: 72rem;
+    height: 43.333rem;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    font-size: 0.926rem;
+    line-height: 3.704rem;
+}
+
+.nav-button{
+    background-color: #fff;
+    width: 6.556rem;
+    height: 2.778rem;
+    border-radius: 1.37rem;
+    font-size: 0.926rem;
+    filter: drop-shadow(0px 8px 17.5px rgba(0,0,0,0.21));
+    font-weight: 600;
+    color: #2c2a29;
+    text-align: center;
+    border: none;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title .title-head{
+    font-size: 3.704rem;
+    line-height: 4.185rem;
+    font-weight: bold;
+}
+
+.title .title-subhead{
+    font-size: 1.222rem;
+}
+.title .title-button{
+    width: 10.556rem;
+    height: 2.926rem;
+    border-radius: 1.444rem;
+    background-color: #fff;
+    font-size: 0.926rem;
+    filter: drop-shadow(0px 8px 17.5px rgba(0,0,0,0.21));
+    /* line-height: 3.704rem; */
+    font-weight: 600;
+    color: #2c2a29;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.body-2{
+    width: 72rem;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+
+}
+.About-header{
+    display: flex;
+    flex-direction: column;
+}
+.About-title{
+    font-size: 1.148rem;
+    line-height: 4.63rem;
+    color: #c2c2c2;
+    font-weight: 700;
+}
+.About-subTitle{
+    font-size: 5rem;
+    line-height: 5rem;
+}
+.About-subTitle span{
+    color: #f36223;
+}
+.About-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #feffff;
+}
+.About-body p{
+    font-size: 1rem;
+}
+.About-ques{
+    font-size: 1.407rem;
+    line-height: 5.444rem;
+    color: #272727;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.body-3{
+    width: 72rem;
+    text-align: center;
+    background-color: #feffff;
+}
+.experience-title{
+    font-size: 1.852rem;
+    line-height: 5.444rem;
+    font-weight: 700;
+}
+.experience .experience-header span{
+    color: #dd5214;
+}
+
+.experience-subTitle{
+    font-size: 1rem;
+}
+
+.experience-list{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.experience-industry{
+    display: flex;
+    flex-direction: column;
+}
+.experience-list span{
+    font-size: 1.222rem;
+    line-height: 1.444rem;
+    color: #272727;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+.body-4{
+    width: 72rem;
+    background-image: linear-gradient(-32deg, #a9451f 0%, #ff580a 100%);
+}
+.Mission{
+    display: flex;
+    flex-direction: row;
+}
+.Mission-header span{
+    font-size: 1.148rem;
+    line-height: 4.63rem;
+    color: #5e5e5e;
+    font-weight: 700;
+}
+.Mission-body p{
+    width: 39.815rem;
+    height: 8.963rem;
+    font-size: 1.407rem;
+    line-height: 2.296rem;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.body-5{
+    width: 72rem;
+}
+.services-item{
+    display: flex;
+    flex-direction: row;
+}
+.services-item-part{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.body-6{
+    width: 72rem;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.body-7{
+    width: 72rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info-data .information{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+.body-8{
+    width: 72rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer-body{
+    display: flex;
+    flex-direction: row;
+}
+.footer-body .Address{
+    display: flex;
+    flex-direction: column;
+}
