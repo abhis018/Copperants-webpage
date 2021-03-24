@@ -256,8 +256,8 @@
 
 .body-4{
     width: 100%;
-    background-image: url("mountain2.png"), linear-gradient(-32deg, #a9451f 0%, #ff580a 100%);
-    background-blend-mode:luminosity;
+    background-image: url("mountain2.png"), linear-gradient(-32deg, #2c211d 0%, #0c0a09 100%);
+    background-blend-mode:inherit;
     background-size: cover;
 }
 .Mission{
