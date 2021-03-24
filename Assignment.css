@@ -25,7 +25,7 @@
 .body-1{
     display: flex;
     background-color: #f36223;
-    background-image: url('mountain.png'),url("mountainBack.png"), url("top.png"), url("bottom.png");
+    background-image: url('../Copperants/public/mountain.png'),url("../Copperants/public/mountainBack.png"), url("../Copperants/public/top.png"), url("../Copperants/public/bottom.png");
     background-blend-mode:soft-light;
     background-size: cover;
     width: 100%;
@@ -159,7 +159,6 @@
 .About-subTitle{
     font-size: 5rem;
     line-height: 5rem;
-    /* color: #f36223; */
     font-weight: bold;
     margin-top: -1rem;
     font-family: "BuenosAiresTrialWeb";
@@ -260,7 +259,7 @@
 
 .body-4{
     width: 100%;
-    background-image: url("mountain2.png"), linear-gradient(-32deg, #2c211d 0%, #0c0a09 100%);
+    background-image: url("../Copperants/public/mountain2.png"), linear-gradient(-32deg, #2c211d 0%, #0c0a09 100%);
     background-blend-mode:color-dodge;
     background-size: cover;
 }
@@ -397,7 +396,7 @@
 
 .body-7{
     width: 100%;
-    background-image: url("alone.png");
+    background-image: url("../Copperants/public/alone.png");
     background-size: 100%;
     background-color: #f36223;
     background-blend-mode: soft-light;
