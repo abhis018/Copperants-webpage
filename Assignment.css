@@ -125,7 +125,6 @@
 
 .body-2{
     width: 100%;
-    /* height: 37.593rem; */
 }
 .About{
     display: flex;
@@ -138,7 +137,6 @@
 .About-header{
     display: flex;
     flex-direction: column;
-    /* flex: 1; */
     text-align: left;
     margin-top: -2rem;
 }
@@ -186,7 +184,6 @@
 
 .body-3{
     width: 100%;
-    /* height: 34.222rem; */
     text-align: center;
     background-color: #feffff;
 }
@@ -225,8 +222,6 @@
     flex: 1;
     justify-content: left;
     text-align: left;
-    /* align-items:flex-start; */
-    /* margin-left: 4.519rem; */
 }
 .experience-list span{
     font-size: 1.222rem;
@@ -254,10 +249,8 @@
 
 .body-4{
     width: 100%;
-    /* height: 18.519rem; */
     background-image: url("mountain2.png");
     background-size: cover;
-    /* background-image: linear-gradient(-32deg, #a9451f 0%, #ff580a 100%), url("mountain2.png"); */
 }
 .Mission{
     display: flex;
@@ -285,8 +278,6 @@
     font-weight: 1000;
 }
 .Mission-body p{
-    /* width: 39.815rem;
-    height: 8.963rem; */
     font-size: 1.15rem;
     line-height: 2.296rem;
     color: #ffffff;
@@ -301,7 +292,6 @@
 
 .body-5{
     width: 100%;
-    /* height: 38.148rem; */
 }
 .services{
     display: flex;
@@ -369,7 +359,6 @@
 
 .body-6{
     width: 100%;
-    /* height: 20rem; */
     background-color: #f5f0ec;
 }
 .clients{
@@ -396,7 +385,6 @@
 
 .body-7{
     width: 100%;
-    /* height: 28.704rem; */
     background-image: url("alone.png");
     background-size: 100%;
     background-color: #f36223;
@@ -463,7 +451,6 @@
 
 .body-8{
     width: 100%;
-    /* height: 11.037rem; */
     background-color: #1f1e1e;
 }
 .footer{
