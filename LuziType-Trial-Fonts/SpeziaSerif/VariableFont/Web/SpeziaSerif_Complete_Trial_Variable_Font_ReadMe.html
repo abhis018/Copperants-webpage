@@ -1,0 +1,110 @@
+<html>
+<head>
+    
+<style type="text/css">
+    
+@font-face {
+font-family: 'SpeziaSerifComplete-Upright-Trial';
+src:  url('SpeziaSerif_Web_Complete_Upright_Trial.woff') format('woff');
+src:  url('SpeziaSerif_Web_Complete_Upright_Trial.woff2') format('woff2');
+}
+@font-face {
+font-family: 'SpeziaSerifComplete-Italic-Trial';
+src:  url('SpeziaSerif_Web_Complete_Italic_Trial.woff') format('woff');
+src:  url('SpeziaSerif_Web_Complete_Italic_Trial.woff2') format('woff2');
+}     
+    
+body {
+color: #333;
+margin: 6vh;
+font-size: 3vh;
+line-height: 1.1;
+  
+font-feature-settings: 'kern';       /* turns on kerning */ 
+text-rendering: optimizeLegibility;  /* emphasise on legibility when rendering, turns on ligatures and kerning */    
+-webkit-font-smoothing: antialiased; /* apply font anti-aliasing for Webkit on OSX */    
+-moz-osx-font-smoothing: grayscale;  /* apply font anti-aliasing for Firefox on OSX */
+
+font-variation-settings: 'wght' 860, 'wdth' 058 'opsz' 014;  /* 'wght' = Font-Weight  (beetween 0 and 1000) */
+                                                             /* 'wdth' = Font-Width   (beetween 0 and 100)  */  
+                                                             /* 'opsz' = Optical Size (beetween 5 and 36)  */  
+}
+    
+.title {
+font-family: 'SpeziaSerifComplete-Upright-Trial';
+}   
+.lead {
+font-family: 'SpeziaSerifComplete-Italic-Trial';
+}  
+.text {
+font-family: 'SpeziaSerifComplete-Upright-Trial';
+}  
+
+/* a little CSS3 animation */    
+.title {
+animation-name: animation-wght;
+animation-iteration-count: infinite; 
+animation-direction: alternate;    
+animation-duration: 5s; 
+ } 
+@keyframes animation-wght {
+000% {font-variation-settings: 'wght' 1000, 'wdth' 100, 'opsz' 014;}
+030% {font-variation-settings: 'wght' 1000, 'wdth' 100, 'opsz' 014;}
+060% {font-variation-settings: 'wght' 0000, 'wdth' 100, 'opsz' 014;}
+100% {font-variation-settings: 'wght' 0000, 'wdth' 100, 'opsz' 014;}
+}       
+.lead {
+animation-name: animation-opsz;
+animation-iteration-count: infinite;
+animation-direction: alternate;        
+animation-duration: 5s; 
+}      
+@keyframes animation-opsz {
+000% {font-variation-settings: 'opsz' 036, 'wght' 0500, 'wdth' 100;}
+030% {font-variation-settings: 'opsz' 036, 'wght' 0500, 'wdth' 100;}
+060% {font-variation-settings: 'opsz' 005, 'wght' 0500, 'wdth' 100;}
+100% {font-variation-settings: 'opsz' 005, 'wght' 0500, 'wdth' 100;}
+}  
+.text {
+animation-name: animation-wdth;
+animation-iteration-count: infinite;
+animation-direction: alternate;        
+animation-duration: 5s; 
+} 
+@keyframes animation-wdth {
+000% {font-variation-settings: 'wdth' 100, 'wght' 0500, 'opsz' 014;}
+030% {font-variation-settings: 'wdth' 100, 'wght' 0500, 'opsz' 014;}
+060% {font-variation-settings: 'wdth' 000, 'wght' 0500, 'opsz' 014;}
+100% {font-variation-settings: 'wdth' 000, 'wght' 0500, 'opsz' 014;}
+} 
+a  {
+text-decoration: none;
+color: #999;
+} 
+</style>
+    
+</head>
+
+<body>
+    
+<div class="title">     
+Spezia Complete Trial
+</div>     
+<br>     
+<div class="lead">    
+Luzi Type provideds variable webfonts in woff and woff2 format.
+</div>    
+<br>     
+<div class="text">    
+This trial font contanins a limited caracterset, including<br>
+the glyphs A-Z in lower- and uppercase, numbers Zero-Nine<br> 
+as well Comma, Period and hyphen. Further including are <br>
+the full spacing and kerning. 
+<br>
+<br>    
+Please note that trials can not be used publicly. <br>
+Trial versions are made for testing inside of <br>
+your office or university. Have a look at our licence agreement.
+</div>        
+</body>
+</html>   
