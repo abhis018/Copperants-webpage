@@ -1,3 +1,6 @@
+:root {
+    font-size: 27px;
+}
 @font-face{
     font-family: "BuenosAiresTrialWeb";
     src: url("./BuenosAiresTrialWeb-Regular.woff") format("woff");
@@ -22,7 +25,7 @@
 .body-1{
     display: flex;
     background-color: #f36223;
-    background-image:url('mountain.png'),url("mountain.png"), url("top.png"), url("bottom.png");
+    background-image: url('mountain.png'),url("mountainBack.png"), url("top.png"), url("bottom.png");
     background-blend-mode:soft-light;
     background-size: cover;
     width: 100%;
@@ -30,7 +33,9 @@
 } 
 .header{
     display: flex;
+    width: 100%;
     flex-direction: column;
+    justify-content: center;
     margin-top: 1.481rem;
 }
 .navbar{
@@ -130,13 +135,14 @@
     display: flex;
     flex-direction: row;
     margin-top: 5.56rem;
-    margin-left: 6.667rem;
-    margin-right: 6.852rem;
+    margin-left: 9%;
+    margin-right: 9%;
     margin-bottom: 5.56rem;
 }
 .About-header{
     display: flex;
     flex-direction: column;
+    flex: 1;
     text-align: left;
     margin-top: -2rem;
 }
@@ -149,6 +155,7 @@
 .About-subTitle{
     font-size: 5rem;
     line-height: 5rem;
+    /* color: #f36223; */
     font-weight: bold;
     margin-top: -1rem;
     font-family: "BuenosAiresTrialWeb";
@@ -159,7 +166,7 @@
 .About-body{
     display: flex;
     flex-direction: column;
-    flex: 3;
+    flex: 1;
     background-color: #feffff;
     text-align: left;
     padding-left: 5.37rem;
@@ -173,7 +180,7 @@
     font-size: 1.607rem;
     line-height: 5.444rem;
     color: #272727;
-    font-weight:bolder;
+    font-weight:700;
 }
 
 
@@ -249,7 +256,8 @@
 
 .body-4{
     width: 100%;
-    background-image: url("mountain2.png");
+    background-image: url("mountain2.png"), linear-gradient(-32deg, #a9451f 0%, #ff580a 100%);
+    background-blend-mode:luminosity;
     background-size: cover;
 }
 .Mission{
@@ -407,6 +415,9 @@
     line-height: 2.333rem;
     color: #ffffff;
     font-weight: bold;
+}
+.todo{
+    margin-left: 2rem;
 }
 .info-data{
     display: flex;
