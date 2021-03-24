@@ -131,6 +131,10 @@
 .body-2{
     width: 100%;
 }
+.body-2 hr{
+    height: 0.1rem;
+    background-color: #feffff;
+}
 .About{
     display: flex;
     flex-direction: row;
