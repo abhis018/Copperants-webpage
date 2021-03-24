@@ -27,12 +27,6 @@
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
-    /* height: 43.333rem; */
-    /* url("mountain.png"), url("top.png"), url("bottom.png") */
-    /* background-image: url('mountainBack.png'), url("mountain.png"), url("top.png"), url("bottom.png"), linear-gradient(-32deg, #a9451f 0%, #ff580a 100%); */
-    /* background: linear-gradient(-32deg, #a9451f 0%, #ff580a 100%);
-    background-image: url("mountain.png"); */
-    /* -webkit-mask-image: linear-gradient(-32deg, #a9451f 0%, #ff580a 100%); */
 } 
 .header{
     display: flex;
@@ -55,7 +49,6 @@
     align-items: center;
     font-size: 0.926rem;
     line-height: 3.704rem;
-    /* margin-left: 22.592rem; */
 }
 .nav-menu span{
     margin-left: 1.852rem;
@@ -80,9 +73,6 @@
     text-align: center;
     border: none;
 }
-/* .nav-logo{
-    margin-left: 6.37rem;
-} */
 .nav-logo img{
     width: 11.407rem;
     height: 3.704rem;
@@ -119,7 +109,6 @@
     background-color: #fff;
     font-size: 0.926rem;
     filter: drop-shadow(0px 8px 17.5px rgba(0,0,0,0.21));
-    /* line-height: 3.704rem; */
     font-weight: 600;
     color: #2c2a29;
     border: none;
@@ -144,11 +133,12 @@
     margin-top: 5.56rem;
     margin-left: 6.667rem;
     margin-right: 6.852rem;
+    margin-bottom: 5.56rem;
 }
 .About-header{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    /* flex: 1; */
     text-align: left;
     margin-top: -2rem;
 }
@@ -174,7 +164,7 @@
     flex: 3;
     background-color: #feffff;
     text-align: left;
-    padding-left: 1.37rem;
+    padding-left: 5.37rem;
 }
 .About-body p{
     font-size: 1rem;
@@ -266,16 +256,27 @@
     width: 100%;
     /* height: 18.519rem; */
     background-image: url("mountain2.png");
+    background-size: cover;
     /* background-image: linear-gradient(-32deg, #a9451f 0%, #ff580a 100%), url("mountain2.png"); */
 }
 .Mission{
     display: flex;
     flex-direction: row;
     margin-left: 6rem;
+    margin-right: 20rem;
     margin-top: 5.185rem;
+    margin-bottom: 5.185rem;
 }
 .Mission-header{
-    margin-top: -1.2rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+.Mission-body{
+    justify-content: flex-start;
+    flex: 3;
+    padding-left: 1rem;
+    margin-top: 1rem;
 }
 .Mission-header span{
     font-size: 1.148rem;
@@ -284,13 +285,12 @@
     font-weight: 1000;
 }
 .Mission-body p{
-    width: 39.815rem;
-    height: 8.963rem;
+    /* width: 39.815rem;
+    height: 8.963rem; */
     font-size: 1.15rem;
     line-height: 2.296rem;
     color: #ffffff;
     text-align: left;
-    margin-left: 10.556rem;
     font-family: "BuenosAiresTrialWeb";
 }
 
@@ -326,11 +326,12 @@
 .services-item-part-1{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 .services-item-part-2{
     display: flex;
     flex-direction: column;
-    margin-left: 2.778rem;
+    flex: 1;
 }
 .services-topic{
     font-size: 1.222rem;
@@ -341,6 +342,7 @@
 .services-item-body{
     display: flex;
     flex-direction: row;
+    flex: 1;
     margin-top: 2.407rem;
 }
 
@@ -410,8 +412,6 @@
     margin-bottom: 4.444rem;
 }
 .info-title{
-    margin-left: 19.4rem;
-    margin-right: 19.4rem;
     font-family: "BuenosAiresTrialWeb";
 }
 .info-title span{
@@ -428,6 +428,7 @@
 .info-data .information{
     display: flex;
     flex-direction: column;
+    flex: 1;
     margin-top: 3.333rem;
 }
 .information-part{
@@ -473,6 +474,13 @@
 .footer-body{
     display: flex;
     flex-direction: row;
+    flex: 1;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
 }
 .footer-body .Address{
     display: flex;
@@ -494,25 +502,22 @@
 .Address-body{
     margin-top: 0.8rem;
 }
-.footer-icon span{
+
+.social-media-contents{
+    text-align: left;
+    align-items: center;
+    margin-top: 1rem;
+}
+.social-media-contents span{
     font-size: 1rem;
-    line-height: 4.63rem;
+    line-height: 2.63rem;
     color: #b2b2b2;
-    font-weight: 400;
-    margin-top: -1rem;
+    font-weight: 400; 
 }
-.footer-icon{
-    display: flex;
-    flex-direction: column;
-    margin-left: 22.037rem;
-}
-.social-media{
+.social-media{ 
     display: flex;
     flex-direction: row;
-    width: 6.667rem;
-    margin-left: 0.5rem;
-    margin-top: 1.5rem;
 }
 .social-media img{
     padding-left:1rem ;
-}
+} 
