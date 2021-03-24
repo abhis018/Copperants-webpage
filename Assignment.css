@@ -259,15 +259,16 @@
 
 .body-4{
     width: 100%;
-    background-image: url("../Copperants/public/mountain2.png"), linear-gradient(-32deg, #2c211d 0%, #0c0a09 100%);
-    background-blend-mode:color-dodge;
+    background-image: url("../Copperants/public/mountain2.png"),linear-gradient(-32deg, #4b3a3a 0%, #745243 100%);
+    background-blend-mode:color-burn;
     background-size: cover;
+    background-position: 0.1rem;
 }
 .Mission{
     display: flex;
     flex-direction: row;
-    margin-left: 6.67rem;
-    margin-right: 6.67rem;
+    margin-left: 7.57rem;
+    margin-right: 7.57rem;
     margin-top: 5.185rem;
     margin-bottom: 5.185rem;
 }
